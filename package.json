@@ -1,8 +1,8 @@
 {
-  "name": "node-fetch-native",
+  "name": "node-fetch-native-with-agent",
   "version": "1.6.4",
-  "description": "better fetch for Node.js. Works on any JavaScript runtime!",
-  "repository": "unjs/node-fetch-native",
+  "description": "Fork of node-fetch-native with support for custom agents",
+  "repository": "loks0n/node-fetch-native",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -94,6 +94,22 @@
           "default": "./dist/proxy-stub.cjs"
         }
       }
+    },
+    "./agent": {
+      "node": {
+        "types": "./lib/agent.d.ts",
+        "default": "./dist/agent.cjs"
+      },
+      "default": {
+        "import": {
+          "types": "./lib/agent.d.ts",
+          "default": "./dist/agent-stub.mjs"
+        },
+        "require": {
+          "types": "./lib/agent.d.ts",
+          "default": "./dist/agent-stub.cjs"
+        }
+      }
     }
   },
   "main": "./lib/index.cjs",
@@ -106,7 +122,8 @@
     "index.d.ts",
     "node.d.ts",
     "polyfill.d.ts",
-    "proxy.d.ts"
+    "proxy.d.ts",
+    "agent.d.ts"
   ],
   "scripts": {
     "build": "unbuild",

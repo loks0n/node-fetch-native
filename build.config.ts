@@ -22,6 +22,8 @@ export default defineBuildConfig({
     "src/node",
     "src/proxy",
     "src/proxy-stub",
+    "src/agent",
+    "src/agent-stub",
   ],
   externals: ["node-fetch-native"],
   hooks: {
