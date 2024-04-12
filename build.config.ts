@@ -25,7 +25,7 @@ export default defineBuildConfig({
     "src/agent",
     "src/agent-stub",
   ],
-  externals: ["node-fetch-native"],
+  externals: ["node-fetch-native-with-agent"],
   hooks: {
     async "build:done"(ctx) {
       // Save few bytes from dist...

@@ -5,8 +5,8 @@ import { Agent as _UndiciAgent, ProxyAgent as _UndiciProxyAgent } from "undici";
 import { Agent, AgentConnectOpts } from "agent-base";
 import { HttpProxyAgent } from "http-proxy-agent";
 import { HttpsProxyAgent } from "https-proxy-agent";
-import { fetch as _fetch } from "node-fetch-native";
 import type { ProxyOptions } from "../proxy";
+import { fetch as _fetch } from "node-fetch-native-with-agent";
 
 // ----------------------------------------------
 // Utils

@@ -5,7 +5,7 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "paths": {
-      "node-fetch-native": ["."]
+      "node-fetch-native-with-agent": ["."]
     }
   },
   "include": ["src"]
