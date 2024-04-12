@@ -1,3 +1,4 @@
+import type * as http from "node:http";
 import type * as https from "node:https";
 import type * as undici from "undici";
 
@@ -8,8 +9,11 @@ export type AgentOptions = {
   rejectUnauthorized?: boolean;
 };
 
-export declare const createAgent: (opts?: AgentOptions) => {
-  agent: https.Agent | undefined;
+export declare const createAgent: (
+  uri?: string,
+  opts?: AgentOptions,
+) => {
+  agent: http.Agent | https.Agent | undefined;
   dispatcher: undici.Dispatcher | undefined;
 };
 
