@@ -1,6 +1,6 @@
 {
   "name": "node-fetch-native-with-agent",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Fork of node-fetch-native with support for custom agents",
   "repository": "loks0n/node-fetch-native",
   "license": "MIT",

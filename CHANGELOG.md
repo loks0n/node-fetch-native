@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.7.1
+
+[compare changes](https://github.com/loks0n/node-fetch-native/compare/v1.7.0...v1.7.1)
+
+### 🩹 Fixes
+
+- External module ([88bcc0e](https://github.com/loks0n/node-fetch-native/commit/88bcc0e))
+
+### ❤️ Contributors
+
+- Loks0n ([@loks0n](http://github.com/loks0n))
+
 ## v1.7.0
 
 
