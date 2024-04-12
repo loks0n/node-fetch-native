@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.7.2
+
+[compare changes](https://github.com/loks0n/node-fetch-native/compare/v1.7.1...v1.7.2)
+
+### 🩹 Fixes
+
+- Condition agent node 16 ([c47b436](https://github.com/loks0n/node-fetch-native/commit/c47b436))
+
+### ❤️ Contributors
+
+- Loks0n ([@loks0n](http://github.com/loks0n))
+
 ## v1.7.1
 
 [compare changes](https://github.com/loks0n/node-fetch-native/compare/v1.7.0...v1.7.1)
